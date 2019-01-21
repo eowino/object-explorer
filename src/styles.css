@@ -1,8 +1,25 @@
+body {
+  background: #fafafa;
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
-  font-family: sans-serif;
   text-align: center;
   max-width: 920px;
   margin: auto;
+}
+
+.title a {
+  color: #011627;
+  text-decoration: none;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #ffa7c4;
+  transition: border-bottom-color 0.4s ease;
+}
+
+.title a:focus,
+.title a:hover {
+  border-bottom-color: #82aaff;
 }
 
 .card {
@@ -13,6 +30,12 @@
   margin-bottom: 20px;
   text-decoration: none;
   color: #222;
+  transition: box-shadow 0.4s ease;
+}
+
+.card:focus,
+.card:hover {
+  box-shadow: -2px 8px 22px 0 rgba(0, 0, 0, 0.15);
 }
 
 .card__prop,
@@ -22,8 +45,9 @@
 }
 
 .card__prop {
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 1px;
 }
 
 .card__result {
