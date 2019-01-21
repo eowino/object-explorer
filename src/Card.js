@@ -5,6 +5,7 @@ function Card({ property, result }) {
     <a
       className="card"
       target="_blank"
+      rel="noopener noreferrer"
       href={`https://mdn.io/${encodeURI(property)}`}
     >
       <span className="card__prop">{property}</span>
