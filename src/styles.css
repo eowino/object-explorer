@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 920px;
+  margin: auto;
+}
+
+.card {
+  display: block;
+  padding: 6px;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+.card__prop,
+.card__result {
+  display: block;
+  padding: 12px;
+}
+
+.card__prop {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.card__result {
+  background: #011627;
+  color: #fff;
+  width: 50%;
+  margin: 8px auto;
+}
