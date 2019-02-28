@@ -1,6 +1,7 @@
 body {
   background: #fafafa;
   font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App {
